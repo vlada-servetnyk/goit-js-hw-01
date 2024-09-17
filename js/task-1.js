@@ -1,11 +1,12 @@
 `use strict`;
 
-const quantity = String;
-const pricePerDroid = Number;
+const quantity = null;
+const pricePerDroid = null;
 
 
 function makeTransaction(quantity, pricePerDroid) {
-    console.log(`You ordered ${quantity} droids worth ${quantity*pricePerDroid} credits!`);
+    console.log(`You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`);
+    return makeTransaction;
 }
 
 console.log(makeTransaction(5, 3000)); // "You ordered 5 droids worth 15000 credits!"
